@@ -1,8 +1,21 @@
 package Mirosmar;
 
 public class Miro {
-public static void main(String[] args) {
-	System.out.println("Óla mundo");
-	System.out.println("miro");
+
+	private String nome;
+	private String sobrenome;
+	
+	public String getNome() {
+		return nome;
+	}
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+	public String getSobrenome() {
+		return sobrenome;
+	}
+	public void setSobrenome(String sobrenome) {
+		this.sobrenome = sobrenome;
+	} 
 }
-}
+
