@@ -4,6 +4,7 @@ public class Miro {
 
 	private String nome;
 	private String sobrenome;
+	private int nn;
 	
 	public String getNome() {
 		return nome;
