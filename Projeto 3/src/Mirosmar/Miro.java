@@ -5,7 +5,7 @@ public class Miro {
 	private String nome;
 	private String sobrenome;
 	private int nn;
-	
+	private string nome; mimi
 	public String getNome() {
 		return nome;
 	}
